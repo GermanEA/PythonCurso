@@ -17,12 +17,12 @@ class Aritmetica:
     def multiplicar(self):
         return self.operando_a * self.operando_b
 
-    def division(self):
+    def dividir(self):
         return self.operando_a / self.operando_b
 
 
-artimetica1 = Aritmetica(5, 3)
+artimetica1 = Aritmetica(1, 3)
 print(artimetica1.sumar())
 print(artimetica1.restar())
 print(artimetica1.multiplicar())
-print(artimetica1.division())
+print(f'{artimetica1.dividir():.2f}')  # :.2f para mostrar solo dos decimales cuando usamos f''
