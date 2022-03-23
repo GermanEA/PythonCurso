@@ -4,6 +4,7 @@ class Persona:
         self._nombre = nombre
         self._apellido = apellido
         self._edad = edad
+
     @property
     def nombre(self):
         return self._nombre
