@@ -9,6 +9,9 @@ try:
     if a == b:
         raise NumerosIdenticosException('Exception idénticos')
 
+    if a != b:
+        raise ValueError('Error lanzado manualmente')
+
     resultado = a / b
 except ZeroDivisionError as e:
     print(f'Ocurrió un error: {e}, {type(e)}')
